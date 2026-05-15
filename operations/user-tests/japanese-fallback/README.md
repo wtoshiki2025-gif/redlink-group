@@ -41,7 +41,7 @@
 | 時間 | 内容 | 使用資料 |
 | --- | --- | --- |
 | 0-5分 | 前提説明 | `interview-guide.md` |
-| 5-15分 | 現状課題とオンライン授業不安の確認 | `interview-guide.md`, `online-lesson-concerns-sheet.md`, `recording-sheet.md` |
+| 5-15分 | 現在の学習環境、現状課題、オンライン授業不安の確認 | `interview-guide.md`, `online-lesson-concerns-sheet.md`, `recording-sheet.md` |
 | 15-25分 | 進路ロードマップ提示 | `sample-roadmap-ja.md` |
 | 25-35分 | 商品説明と価格感度 | `service-one-pager-ja.md`, `pricing-test-sheet.md` |
 | 35-42分 | 在日中国人家庭への置き換え評価 | `interview-guide.md` |
