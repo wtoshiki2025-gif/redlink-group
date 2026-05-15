@@ -32,14 +32,16 @@
 4. `service-one-pager-ja.md`: 日本語サービス説明資料
 5. `sample-roadmap-ja.md`: サンプル進路ロードマップ
 6. `pricing-test-sheet.md`: 価格感度確認シート
-7. `analysis-framework.md`: 結果の読み替え・分析方法
+7. `online-lesson-concerns-sheet.md`: オンライン授業の不安・必要機能確認シート
+8. `presentation-slides.md`: 当日提示用スライド
+9. `analysis-framework.md`: 結果の読み替え・分析方法
 
 ## 当日の進行
 
 | 時間 | 内容 | 使用資料 |
 | --- | --- | --- |
 | 0-5分 | 前提説明 | `interview-guide.md` |
-| 5-15分 | 現状課題の確認 | `interview-guide.md`, `recording-sheet.md` |
+| 5-15分 | 現状課題とオンライン授業不安の確認 | `interview-guide.md`, `online-lesson-concerns-sheet.md`, `recording-sheet.md` |
 | 15-25分 | 進路ロードマップ提示 | `sample-roadmap-ja.md` |
 | 25-35分 | 商品説明と価格感度 | `service-one-pager-ja.md`, `pricing-test-sheet.md` |
 | 35-42分 | 在日中国人家庭への置き換え評価 | `interview-guide.md` |
