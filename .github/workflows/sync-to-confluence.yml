@@ -1,0 +1,35 @@
+name: Sync Markdown to Confluence
+
+on:
+  push:
+    branches: [main]
+    paths: ['**/*.md']
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Get changed MD files
+        run: |
+          git diff --name-only HEAD~1 HEAD -- '*.md' > changed_files.txt
+          cat changed_files.txt
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests markdown
+
+      - name: Sync to Confluence
+        env:
+          CONFLUENCE_EMAIL: ${{ secrets.CONFLUENCE_EMAIL }}
+          CONFLUENCE_API_TOKEN: ${{ secrets.CONFLUENCE_API_TOKEN }}
+          CONFLUENCE_BASE_URL: https://redlink-group.atlassian.net
+          CONFLUENCE_SPACE_KEY: CP
+        run: python .github/scripts/sync_to_confluence.py
